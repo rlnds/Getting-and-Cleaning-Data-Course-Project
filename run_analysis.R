@@ -25,7 +25,7 @@ colnames(df_merged) <- col_names
 ## measurement
 col_names_with_mean_or_std <- grep("mean|std", col_names, 
                                    ignore.case=TRUE, value=TRUE)
-df_merged_extracted <- df_merged[col_names_with_mean_or_std]
+df_merged <- df_merged[col_names_with_mean_or_std]
 
 
 ## 5.Insert a column of subjects into the data set to provide information on

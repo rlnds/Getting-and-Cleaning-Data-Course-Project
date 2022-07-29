@@ -16,7 +16,7 @@ The following steps are taken to achieve getting and cleaning data:
 
 3.Appropriately label the data set with descriptive variable names found in "features.txt".
 
-4.Extract only the measurements on the mean and standard deviation for each measurement by finding those columns the names of which contain either "mean" or "std" patterns. The extracted data is assigned as df_merged_extracted.    
+4.Extract only the measurements on the mean and standard deviation for each measurement by finding those columns the names of which contain either "mean" or "std" patterns.    
 
 5.Insert a column of subjects ids into the data set to provide information on
 which subject corresponds to which data.

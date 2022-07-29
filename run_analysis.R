@@ -54,3 +54,4 @@ average_data_set <- arrange(df_merged, id_subject) %>%
 
 ## 8.Save the obtained data set
 write.csv(average_data_set, "Final_data_set.csv")
+write.table(average_data_set, "Final_data_set.txt", sep = " ", row.names=FALSE)

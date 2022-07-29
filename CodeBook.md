@@ -31,4 +31,4 @@ with the average of each variable for each activity and each subject:
 7.1.Load the library "dplyr";
 7.2.Order the rows by the subject ids; group the obtained table; calculate the average values; remove the column of activity ids. These operations yield the final data set: average_data_set.
 
-8.Save average_data_set as "Final_data_set.csv".
+8.Save average_data_set as "Final_data_set.csv" and "Final_data_set.txt"

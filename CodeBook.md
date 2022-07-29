@@ -2,7 +2,7 @@ Getting-and-Cleaning-Data-Course-Project
 
 The following steps are taken to achieve getting and cleaning data:  
 
-1.Read the data files:
+1.Read the data files (more information on the data files can be found in "INFO.txt"):
 1.1. "train/X_train.txt";
 1.2. "test/X_test.txt";
 1.3. "features.txt";
